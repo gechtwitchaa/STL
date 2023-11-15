@@ -16,3 +16,8 @@ namespace Geometria {
         }
     };
 }
+int main() {
+    Geometria::Circulo circulo(5);
+
+    float area = circulo.calcularArea();
+    float perimetro = circulo.calcularPerimetro();
