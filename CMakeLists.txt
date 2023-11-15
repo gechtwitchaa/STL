@@ -7,6 +7,5 @@ include_directories(.)
 
 add_executable(STL
         ej1/ej1.cpp
-        main.cpp
-        triangulo.h
+        ej3/claseynombres.cpp
 )
