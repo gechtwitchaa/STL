@@ -7,9 +7,6 @@ include_directories(.)
 
 add_executable(STL
         ej1/ej1.cpp
-        ej2/triangulo.cpp
-        circulo.cpp
         main.cpp
         triangulo.h
-        circulo.h
 )
