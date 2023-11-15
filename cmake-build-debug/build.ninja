@@ -63,19 +63,12 @@ build CMakeFiles/STL.dir/ej2/triangulo.cpp.obj: CXX_COMPILER__STL_unscanned_Debu
   OBJECT_DIR = CMakeFiles\STL.dir
   OBJECT_FILE_DIR = CMakeFiles\STL.dir\ej2
 
-build CMakeFiles/STL.dir/ej2/circulo.cpp.obj: CXX_COMPILER__STL_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/STL/ej2/circulo.cpp || cmake_object_order_depends_target_STL
-  DEP_FILE = CMakeFiles\STL.dir\ej2\circulo.cpp.obj.d
+build CMakeFiles/STL.dir/circulo.cpp.obj: CXX_COMPILER__STL_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/STL/circulo.cpp || cmake_object_order_depends_target_STL
+  DEP_FILE = CMakeFiles\STL.dir\circulo.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/alber_wzgn3ys/Documents/GitHub/STL/.
   OBJECT_DIR = CMakeFiles\STL.dir
-  OBJECT_FILE_DIR = CMakeFiles\STL.dir\ej2
-
-build CMakeFiles/STL.dir/ej2/main.cpp.obj: CXX_COMPILER__STL_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/STL/ej2/main.cpp || cmake_object_order_depends_target_STL
-  DEP_FILE = CMakeFiles\STL.dir\ej2\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/alber_wzgn3ys/Documents/GitHub/STL/.
-  OBJECT_DIR = CMakeFiles\STL.dir
-  OBJECT_FILE_DIR = CMakeFiles\STL.dir\ej2
+  OBJECT_FILE_DIR = CMakeFiles\STL.dir
 
 
 # =============================================================================
@@ -85,7 +78,7 @@ build CMakeFiles/STL.dir/ej2/main.cpp.obj: CXX_COMPILER__STL_unscanned_Debug C$:
 #############################################
 # Link the executable STL.exe
 
-build STL.exe: CXX_EXECUTABLE_LINKER__STL_Debug CMakeFiles/STL.dir/ej1/ej1.cpp.obj CMakeFiles/STL.dir/ej2/triangulo.cpp.obj CMakeFiles/STL.dir/ej2/circulo.cpp.obj CMakeFiles/STL.dir/ej2/main.cpp.obj
+build STL.exe: CXX_EXECUTABLE_LINKER__STL_Debug CMakeFiles/STL.dir/ej1/ej1.cpp.obj CMakeFiles/STL.dir/ej2/triangulo.cpp.obj CMakeFiles/STL.dir/circulo.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\STL.dir
