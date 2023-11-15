@@ -70,6 +70,13 @@ build CMakeFiles/STL.dir/circulo.cpp.obj: CXX_COMPILER__STL_unscanned_Debug C$:/
   OBJECT_DIR = CMakeFiles\STL.dir
   OBJECT_FILE_DIR = CMakeFiles\STL.dir
 
+build CMakeFiles/STL.dir/main.cpp.obj: CXX_COMPILER__STL_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/STL/main.cpp || cmake_object_order_depends_target_STL
+  DEP_FILE = CMakeFiles\STL.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/alber_wzgn3ys/Documents/GitHub/STL/.
+  OBJECT_DIR = CMakeFiles\STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\STL.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target STL
@@ -78,7 +85,7 @@ build CMakeFiles/STL.dir/circulo.cpp.obj: CXX_COMPILER__STL_unscanned_Debug C$:/
 #############################################
 # Link the executable STL.exe
 
-build STL.exe: CXX_EXECUTABLE_LINKER__STL_Debug CMakeFiles/STL.dir/ej1/ej1.cpp.obj CMakeFiles/STL.dir/ej2/triangulo.cpp.obj CMakeFiles/STL.dir/circulo.cpp.obj
+build STL.exe: CXX_EXECUTABLE_LINKER__STL_Debug CMakeFiles/STL.dir/ej1/ej1.cpp.obj CMakeFiles/STL.dir/ej2/triangulo.cpp.obj CMakeFiles/STL.dir/circulo.cpp.obj CMakeFiles/STL.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\STL.dir
