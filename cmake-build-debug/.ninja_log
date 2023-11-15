@@ -1,6 +1,6 @@
 # ninja log v5
 3	550	7217730192738352	CMakeFiles/STL.dir/ej1.cpp.obj	ec7f919c29c5daf1
-2	239	7217738480184660	build.ninja	53cb37e0af95e2bd
+2	239	7217745331458480	build.ninja	53cb37e0af95e2bd
 551	793	7217730195110610	STL.exe	88699f85beea09da
 0	820	7217734827926434	CMakeFiles/STL.dir/ej1/ej1.cpp.obj	56236da4c86a050b
 6	871	7217734828098863	CMakeFiles/STL.dir/ej2/triangulo.cpp.obj	12be54e5f1067b45

@@ -10,4 +10,6 @@ add_executable(STL
         ej2/triangulo.cpp
         circulo.cpp
         main.cpp
+        triangulo.h
+        circulo.h
 )
