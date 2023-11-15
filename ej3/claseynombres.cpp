@@ -21,3 +21,8 @@ int main() {
 
     float area = circulo.calcularArea();
     float perimetro = circulo.calcularPerimetro();
+    std::cout << "Área del círculo: " << area << std::endl;
+    std::cout << "Perímetro del círculo: " << perimetro << std::endl;
+
+    return 0;
+}
